@@ -19,7 +19,6 @@ public class EmailExecute implements EmailSender {
     private void executeSendingEmail(String to, String subject, String messageText, String cc) {
 
         String host = "smtp.office365.com";
-
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");

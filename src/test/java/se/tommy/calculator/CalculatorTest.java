@@ -9,6 +9,6 @@ class CalculatorTest {
 
     @Test
     void multiply() {
-        Assertions.assertEquals(6, Calculator.multiply(2, 3));
+        assertEquals(6, Calculator.multiply(2, 3));
     }
 }
